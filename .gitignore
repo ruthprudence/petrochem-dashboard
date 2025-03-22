@@ -173,4 +173,5 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 orc.key
-req.txt
+petroenv/
+nohup.out
