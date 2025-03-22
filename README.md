@@ -16,4 +16,8 @@ I decided to use Oracle since they have a free cloud instance, and I knew it cou
 
 While transferring development from my local computer to this online Virtual Machine (VM), I ran into several issues and had to write tests in Python with API endpoints I could test via Postman on my local machine, to finally enable a full clean path for the app to exist as a process on my Oracle instance, and be accessible via a public URL–after a few days, the app works!
 
-Next steps are to import news stories and also other features as well that would make it a site worth visiting frequently, for reliable, updated, and relevant content.
+Currently, the streamlit app is run as a process in my Oracle instance, but I'd like to better manage how that is executed: I experiemnted with some systemd configurations to manage this (combined with some CRON jobs), but there may be restrictions/limitations from the Cloud that limit this as effectively as I would like--this is a priority, though, and whether separate packages are installed to manage this, or I brew a homemade solution, making sure the site has as near to 100% run-time as possible is my immediate concern.
+
+After making sure the site is robust enough (and setting up alerts/pings so that I know when to intervene), after that my next steps on the frontend are to provide more news stories and content, imported from around the web.
+
+After that, adding other features to make the site worth visiting frequently for reliable, updated, and relevant content is my priority.
