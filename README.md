@@ -2,6 +2,8 @@
 
 ![frontend](public/app1.png)
 
+Live site: [http://165.1.68.109:8501/](http://165.1.68.109:8501/)
+
 This endeavor began after responding to a job vacancy for a Junior Market Reporter in Petrochemicals–a position based around collecting and analyzing trade data to provide daily market assessments for US polyolefins. Because of my background in both Natural Resources (Master of Science, 2010) and web development (over a decade of profession in Seattle’s technology environment) I decided to build a full-stack data pipeline so that users could interact with actual energy data.
 
 First, I visited the US Energy Information Administration (EIA) to see what data was available, and what would be good for this project. In addition to providing a front-end graphical user interface for people to interact with the EIA also provides an API (Application Programming Interface) to access their data through the backend, which is perfect for building a data pipeline. I registered for an API key to my personal email address as a US Citizen, and got to work.
